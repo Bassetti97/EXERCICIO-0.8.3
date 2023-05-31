@@ -1,0 +1,39 @@
+:root {
+    --cor-1: #353232;
+    --cor-figura: white;
+    --cor-span: red;
+}
+div {
+ text-align: right;
+}
+button svg {
+    width: 30px;
+    height: 30px;
+}
+button {
+    border-radius: 10em;
+    padding: 16px;
+    background-color: var(--cor-1);
+    border: none;
+    fill: var(--cor-figura);
+    position: relative;
+}
+div span {
+    position: absolute;
+    right: 1px;
+    top: 2px;
+    border-radius: 20px;
+    background-color: var(--cor-span);
+    color: var(--cor-figura);
+    padding: 2px;
+}
+.flecha {
+    position: absolute;
+    bottom: -4px;
+    right: 1px;
+    border-radius: 30px;
+    padding: 2px;
+    height: 15px;
+    width: 15px;
+    background-color: var(--cor-span);
+}
